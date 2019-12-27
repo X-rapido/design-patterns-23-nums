@@ -1,4 +1,4 @@
-package com.example.Interaction_mode.命令模式;
+package com.example.Interaction_mode.命令模式.示例1;
 
 import lombok.AllArgsConstructor;
 
@@ -15,8 +15,11 @@ public interface Command {
  */
 @AllArgsConstructor
 class ConcreteCommand implements Command {
-	
-	private Receiver receiver;	// 执行者
+
+	/**
+	 * 执行者
+	 */
+	private Receiver receiver;
 
 	@Override
 	public void execute() {
