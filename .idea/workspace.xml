@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ebc249-7ff3-4730-aa1f-782d3a01e7f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns-23-nums.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns-23-nums.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/命令模式/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/命令模式/示例1/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/命令模式/Invoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/命令模式/示例1/Invoke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/命令模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/命令模式/示例1/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/命令模式/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/命令模式/示例1/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/责任链模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/责任链模式/MainClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -419,21 +408,22 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/structure_mode/代理模式/staticProxy" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.other.服务定位器模式" />
+      <recent name="com.example.structure_mode.代理模式.动态代理" />
+      <recent name="com.example.structure_mode.适配器模式" />
+      <recent name="com.example.create_mode.单例模式.test" />
+      <recent name="com.example.create_mode.原型模式.深克隆" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/备忘录模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test2" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.structure_mode.代理模式.动态代理" />
-      <recent name="com.example.structure_mode.适配器模式" />
-      <recent name="com.example.create_mode.单例模式.test" />
-      <recent name="com.example.create_mode.原型模式.深克隆" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/structure_mode/代理模式/staticProxy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -448,7 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -473,6 +463,14 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Interaction_mode.责任链模式.MainClass" />
+      <module name="design-patterns-23-nums" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -521,6 +519,14 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="ServiceLocatorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.other.服务定位器模式.ServiceLocatorPatternDemo" />
+      <module name="design-patterns-23-nums" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -534,6 +540,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.ServiceLocatorPatternDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -548,7 +560,7 @@
       <workItem from="1558620788928" duration="9282000" />
       <workItem from="1558764158355" duration="26955000" />
       <workItem from="1558830268735" duration="10236000" />
-      <workItem from="1577417272714" duration="3533000" />
+      <workItem from="1577417272714" duration="5427000" />
     </task>
     <servers />
   </component>

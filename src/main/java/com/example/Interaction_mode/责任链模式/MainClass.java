@@ -14,7 +14,8 @@ public class MainClass {
         c.setNextLeader(d);
 
         // 开始请假操作
-        LeaveRequest req = new LeaveRequest("汤姆", 15, "回英国老家探亲！");
+//        LeaveRequest req = new LeaveRequest("汤姆", 15, "回英国老家探亲！");
+        LeaveRequest req = new LeaveRequest("汤姆", 3, "回英国老家探亲！");
         a.handleRequest(req);
     }
 }
