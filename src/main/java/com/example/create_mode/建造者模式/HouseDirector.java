@@ -1,5 +1,7 @@
 package com.example.create_mode.建造者模式;
 
+import com.example.create_mode.建造者模式.service.HouseBuilder;
+
 /**
  * 建造设计者
  */

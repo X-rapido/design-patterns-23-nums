@@ -1,5 +1,9 @@
 package com.example.create_mode.简单工厂模式;
 
+import com.example.create_mode.简单工厂模式.service.Human;
+import com.example.create_mode.简单工厂模式.service.impl.Man;
+import com.example.create_mode.简单工厂模式.service.impl.Woman;
+
 /**
  * 简单工程模式：传递名称
  */

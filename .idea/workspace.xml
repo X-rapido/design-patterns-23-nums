@@ -3,7 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="78ebc249-7ff3-4730-aa1f-782d3a01e7f9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/责任链模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/责任链模式/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/jdk_test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/jdk_test/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/jdk_test/MyObServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/jdk_test/MyOb_A_Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/HouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/service/HouseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/HouseDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/HouseDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/InnBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/service/impl/InnBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/VillaHouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/service/impl/VillaHouseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/AppleIceCreamFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/AppleIceCreamFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/BigAppleIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/BigAppleIceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/BigIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/BigIceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/BigOrangeIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/BigOrangeIceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/IceCreamFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/IceCreamFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/OrangeIceCreamFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/OrangeIceCreamFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/SmallAppleIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/SmallAppleIceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/SmallIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/SmallIceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/SmallOrangeIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/SmallOrangeIceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/service/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/service/impl/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/SampleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/SampleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/SampleFactory1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/SampleFactory1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/service/impl/Woman.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -408,22 +429,22 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/structure_mode/代理模式/staticProxy" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.other.服务定位器模式" />
-      <recent name="com.example.structure_mode.代理模式.动态代理" />
-      <recent name="com.example.structure_mode.适配器模式" />
-      <recent name="com.example.create_mode.单例模式.test" />
-      <recent name="com.example.create_mode.原型模式.深克隆" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/备忘录模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test2" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.Interaction_mode.观察者模式.jdk_test" />
+      <recent name="com.example.other.服务定位器模式" />
+      <recent name="com.example.structure_mode.代理模式.动态代理" />
+      <recent name="com.example.structure_mode.适配器模式" />
+      <recent name="com.example.create_mode.单例模式.test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/structure_mode/代理模式/staticProxy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -438,7 +459,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainClass">
+  <component name="RunManager" selected="Application.MainClass (3)">
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -467,8 +488,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Interaction_mode.责任链模式.MainClass" />
+    <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Interaction_mode.观察者模式.test.MainClass" />
+      <module name="design-patterns-23-nums" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Interaction_mode.观察者模式.jdk_test.MainClass" />
+      <module name="design-patterns-23-nums" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.create_mode.建造者模式.MainClass" />
       <module name="design-patterns-23-nums" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -485,6 +522,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Interaction_mode.观察者模式.jdk_test.MainClass" />
@@ -519,14 +559,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ServiceLocatorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.other.服务定位器模式.ServiceLocatorPatternDemo" />
-      <module name="design-patterns-23-nums" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -542,8 +574,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.ServiceLocatorPatternDemo" />
+        <item itemvalue="Application.MainClass (3)" />
+        <item itemvalue="Application.MainClass (2)" />
+        <item itemvalue="Application.MainClass (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -560,18 +593,15 @@
       <workItem from="1558620788928" duration="9282000" />
       <workItem from="1558764158355" duration="26955000" />
       <workItem from="1558830268735" duration="10236000" />
-      <workItem from="1577417272714" duration="5427000" />
+      <workItem from="1577417272714" duration="5464000" />
+      <workItem from="1577776307350" duration="3154000" />
+      <workItem from="1581044533881" duration="2052000" />
+      <workItem from="1581048424675" duration="1055000" />
+      <workItem from="1581049488886" duration="33000" />
+      <workItem from="1581049529007" duration="36000" />
+      <workItem from="1581049603825" duration="241000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -581,7 +611,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,4 +1,4 @@
-package com.example.create_mode.建造者模式;
+package com.example.create_mode.建造者模式.model;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

@@ -5,9 +5,10 @@ public class MainClass {
 
         // 博主，三个观察者
         BlogUser user = new BlogUser();
-        user.addObserver(new MyObServer());
-        user.addObserver(new MyObServer());
-        user.addObserver(new MyObServer());
+        user.addObserver(new MyOb_A_Server());
+        user.addObserver(new MyOb_B_Server());
+
+        user.deleteObserver(new MyOb_A_Server());
 
         System.out.println("观察者数量：" + user.countObservers());
 

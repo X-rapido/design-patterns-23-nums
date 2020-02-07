@@ -6,11 +6,13 @@ import java.util.Observer;
 /**
  * 观察者用户
  */
-public class MyObServer implements Observer {
+public class MyOb_B_Server implements Observer {
 
+	@Override
 	public void update(Observable o, Object arg) {
+		System.out.println("--- 观察者 B ---");
+
 		Article art = (Article)arg;
-		
 		System.out.println("博主发表了新文章，快去看吧！");
 		System.out.println("博客标题：" + art.getArticleTitle());
 		System.out.println("博客内容" + art.getArticleContent());
