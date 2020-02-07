@@ -1,5 +1,7 @@
 package com.example.Interaction_mode.观察者模式.test;
 
+import com.example.Interaction_mode.观察者模式.test.service.Observer;
+
 import java.util.ArrayList;
 import java.util.List;
 

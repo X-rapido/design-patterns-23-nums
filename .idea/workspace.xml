@@ -3,28 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="78ebc249-7ff3-4730-aa1f-782d3a01e7f9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/jdk_test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/jdk_test/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/jdk_test/MyObServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/jdk_test/MyOb_A_Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/HouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/service/HouseBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/HouseDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/HouseDirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/InnBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/service/impl/InnBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/VillaHouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/建造者模式/service/impl/VillaHouseBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/AppleIceCreamFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/AppleIceCreamFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/BigAppleIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/BigAppleIceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/BigIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/BigIceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/BigOrangeIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/BigOrangeIceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/IceCreamFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/IceCreamFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/OrangeIceCreamFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/OrangeIceCreamFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/SmallAppleIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/SmallAppleIceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/SmallIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/SmallIceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/SmallOrangeIceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/抽象工厂模式/service/impl/SmallOrangeIceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/service/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/service/impl/Man.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/SampleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/SampleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/SampleFactory1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/SampleFactory1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/简单工厂模式/service/impl/Woman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/service/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/ObserverA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/ObserverA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/AppleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/AppleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Banana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/BananaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/BananaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/service/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/FruitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/service/FruitFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Pear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Pear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/PearFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/PearFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -599,7 +589,10 @@
       <workItem from="1581048424675" duration="1055000" />
       <workItem from="1581049488886" duration="33000" />
       <workItem from="1581049529007" duration="36000" />
-      <workItem from="1581049603825" duration="241000" />
+      <workItem from="1581049603825" duration="1421000" />
+      <workItem from="1581057866392" duration="545000" />
+      <workItem from="1581058491461" duration="619000" />
+      <workItem from="1581059522464" duration="17000" />
     </task>
     <servers />
   </component>

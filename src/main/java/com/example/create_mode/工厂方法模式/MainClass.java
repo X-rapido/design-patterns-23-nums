@@ -1,5 +1,11 @@
 package com.example.create_mode.工厂方法模式;
 
+import com.example.create_mode.工厂方法模式.service.Fruit;
+import com.example.create_mode.工厂方法模式.service.FruitFactory;
+import com.example.create_mode.工厂方法模式.service.impl.AppleFactory;
+import com.example.create_mode.工厂方法模式.service.impl.BananaFactory;
+import com.example.create_mode.工厂方法模式.service.impl.PearFactory;
+
 public class MainClass {
     public static void main(String[] args) {
         // 苹果
