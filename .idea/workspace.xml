@@ -2,19 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ebc249-7ff3-4730-aa1f-782d3a01e7f9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/impl/FinanceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/impl/MarketImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/service/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/ObserverA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/ObserverA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式/test/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/AppleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/AppleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Banana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/BananaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/BananaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/service/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/FruitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/service/FruitFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Pear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/Pear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/PearFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/create_mode/工厂方法模式/PearFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns-23-nums.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns-23-nums.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/Development.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/impl/DevelopmentImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/Finance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/Market.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/MediatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/President.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/impl/PresidentImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/BookedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/service/impl/BookedStateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/CheckedInState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/service/impl/CheckedInStateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/FreeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/service/impl/FreeStateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/HomeContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/model/HomeContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/service/StateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/model/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/CustomerFewStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/service/impl/CustomerFewStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/CustomerManyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/service/impl/CustomerManyStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/MainClasss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/MainClasss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/OldCustomerFewStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/service/impl/OldCustomerFewStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/OldCustomerManyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/service/impl/OldCustomerManyStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/service/Strategy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +43,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -416,9 +430,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.实例" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/备忘录模式" />
@@ -427,15 +444,21 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.实例.工厂模式.service.impl" />
+      <recent name="com.example.实例.工厂模式.service" />
+      <recent name="com.example.实例.responsibility.impl" />
       <recent name="com.example.Interaction_mode.观察者模式.jdk_test" />
       <recent name="com.example.other.服务定位器模式" />
-      <recent name="com.example.structure_mode.代理模式.动态代理" />
-      <recent name="com.example.structure_mode.适配器模式" />
-      <recent name="com.example.create_mode.单例模式.test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/example/structure_mode/代理模式/staticProxy" />
     </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -449,7 +472,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainClass (3)">
+  <component name="RunManager" selected="Application.MainClass (2)">
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -479,7 +502,7 @@
       </method>
     </configuration>
     <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Interaction_mode.观察者模式.test.MainClass" />
+      <option name="MAIN_CLASS_NAME" value="com.example.Interaction_mode.中介者模式.MainClass" />
       <module name="design-patterns-23-nums" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -487,31 +510,9 @@
       </method>
     </configuration>
     <configuration name="MainClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Interaction_mode.观察者模式.jdk_test.MainClass" />
+      <option name="MAIN_CLASS_NAME" value="com.example.Interaction_mode.状态模式.MainClass" />
       <module name="design-patterns-23-nums" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.create_mode.建造者模式.MainClass" />
-      <module name="design-patterns-23-nums" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Interaction_mode.备忘录模式.simple_test.MainClass" />
-      <module name="design-patterns-23-nums" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.Interaction_mode.备忘录模式.simple_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -526,6 +527,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.create_mode.抽象工厂模式.MainClass" />
@@ -564,7 +568,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainClass (3)" />
         <item itemvalue="Application.MainClass (2)" />
         <item itemvalue="Application.MainClass (1)" />
       </list>
@@ -593,6 +596,13 @@
       <workItem from="1581057866392" duration="545000" />
       <workItem from="1581058491461" duration="619000" />
       <workItem from="1581059522464" duration="17000" />
+      <workItem from="1581059589973" duration="11298000" />
+      <workItem from="1581130479021" duration="1432000" />
+      <workItem from="1581131955650" duration="2077000" />
+      <workItem from="1581135603199" duration="837000" />
+      <workItem from="1581137858291" duration="1856000" />
+      <workItem from="1582184799705" duration="949000" />
+      <workItem from="1582185842821" duration="240000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package com.example.Interaction_mode.策略模式;
+package com.example.Interaction_mode.策略模式.service;
 
 /**
  * 策略接口

@@ -1,5 +1,6 @@
-package com.example.Interaction_mode.策略模式;
+package com.example.Interaction_mode.策略模式.model;
 
+import com.example.Interaction_mode.策略模式.service.Strategy;
 import lombok.AllArgsConstructor;
 import lombok.Setter;
 

@@ -1,4 +1,6 @@
-package com.example.Interaction_mode.策略模式;
+package com.example.Interaction_mode.策略模式.service.impl;
+
+import com.example.Interaction_mode.策略模式.service.Strategy;
 
 /**
  * 老客户大批量策略

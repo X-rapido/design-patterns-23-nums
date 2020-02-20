@@ -1,5 +1,9 @@
 package com.example.Interaction_mode.策略模式;
 
+import com.example.Interaction_mode.策略模式.service.Strategy;
+import com.example.Interaction_mode.策略模式.service.impl.OldCustomerManyStrategy;
+import com.example.Interaction_mode.策略模式.model.Context;
+
 public class MainClasss {
 
     public static void main(String[] args) {
