@@ -2,32 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78ebc249-7ff3-4730-aa1f-782d3a01e7f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/impl/FinanceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/impl/MarketImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns-23-nums.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns-23-nums.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/Development.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/impl/DevelopmentImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/Finance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/Market.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/MediatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/President.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/中介者模式/service/impl/PresidentImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/BookedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/service/impl/BookedStateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/CheckedInState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/service/impl/CheckedInStateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/FreeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/service/impl/FreeStateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/HomeContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/model/HomeContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/状态模式/service/StateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/model/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/CustomerFewStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/service/impl/CustomerFewStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/CustomerManyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/service/impl/CustomerManyStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/MainClasss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/MainClasss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/OldCustomerFewStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/service/impl/OldCustomerFewStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/OldCustomerManyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/service/impl/OldCustomerManyStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/策略模式/service/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/service/impl/Park.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/ParkA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/service/impl/ParkA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/ParkB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/service/impl/ParkB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/ParkElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/service/ParkElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/service/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/VisitorA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/service/impl/VisitorA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/VisitorB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/service/impl/VisitorB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/VisitorManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式/service/impl/VisitorManager.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -602,7 +585,7 @@
       <workItem from="1581135603199" duration="837000" />
       <workItem from="1581137858291" duration="1856000" />
       <workItem from="1582184799705" duration="949000" />
-      <workItem from="1582185842821" duration="240000" />
+      <workItem from="1582185842821" duration="627000" />
     </task>
     <servers />
   </component>

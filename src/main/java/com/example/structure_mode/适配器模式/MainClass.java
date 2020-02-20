@@ -1,5 +1,10 @@
 package com.example.structure_mode.适配器模式;
 
+import com.example.structure_mode.适配器模式.service.Target;
+import com.example.structure_mode.适配器模式.service.impl.Adapter;
+import com.example.structure_mode.适配器模式.service.impl.Adapter2;
+import com.example.structure_mode.适配器模式.service.impl.ConcreteTarget;
+
 public class MainClass {
     public static void main(String[] args) {
         // 原有的业务逻辑

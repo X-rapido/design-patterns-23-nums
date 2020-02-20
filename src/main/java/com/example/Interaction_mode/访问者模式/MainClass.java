@@ -1,5 +1,7 @@
 package com.example.Interaction_mode.访问者模式;
 
+import com.example.Interaction_mode.访问者模式.service.impl.*;
+
 public class MainClass {
 
     public static void main(String[] args) {

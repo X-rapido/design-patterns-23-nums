@@ -1,4 +1,6 @@
-package com.example.Interaction_mode.访问者模式;
+package com.example.Interaction_mode.访问者模式.service.impl;
+
+import com.example.Interaction_mode.访问者模式.service.Visitor;
 
 /**
  * 访问者 - 管理员

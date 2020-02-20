@@ -1,4 +1,4 @@
-package com.example.Interaction_mode.访问者模式;
+package com.example.Interaction_mode.访问者模式.service;
 
 /*
  * 公园每个部分的抽象

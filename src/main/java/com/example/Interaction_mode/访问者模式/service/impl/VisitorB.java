@@ -1,4 +1,6 @@
-package com.example.Interaction_mode.访问者模式;
+package com.example.Interaction_mode.访问者模式.service.impl;
+
+import com.example.Interaction_mode.访问者模式.service.Visitor;
 
 /**
  * 【清洁工】访问者B，负责访问 ParkA 的卫生情况
