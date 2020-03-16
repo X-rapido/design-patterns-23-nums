@@ -19,7 +19,7 @@ public class DocDetailStrategy {
     private DocResponsibility docResponsibility;
 
     /**
-     * 属性名称
+     * 节点名称
      */
     private String attrName;
 

@@ -3,13 +3,13 @@ package com.example.实例.model;
 import lombok.Data;
 
 /**
- * 作品内容上下文
+ * 公共请求参数
  */
 @Data
-public class DocDetailContext {
+public class ItemParam {
 
     /**
-     * 作品id / skuId
+     * skuId
      */
     private String id;
 
