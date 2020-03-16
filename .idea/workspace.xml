@@ -4,12 +4,7 @@
     <list default="true" id="78ebc249-7ff3-4730-aa1f-782d3a01e7f9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例/model/DocDetailContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例/model/ItemParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例/model/DocDetailStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例/model/DocDetailStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例/responsibility/DocResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例/responsibility/DocResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例/responsibility/impl/ArtisanResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例/responsibility/impl/ArtisanResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例/responsibility/impl/BaseResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例/responsibility/impl/BaseResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例/responsibility/impl/GoldCardResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例/responsibility/impl/GoldCardResponsibility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例2/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例2/MainClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -605,7 +600,7 @@
       <workItem from="1582185842821" duration="6972000" />
       <workItem from="1584074531215" duration="1874000" />
       <workItem from="1584279312625" duration="4003000" />
-      <workItem from="1584349998795" duration="1371000" />
+      <workItem from="1584349998795" duration="2570000" />
     </task>
     <servers />
   </component>
