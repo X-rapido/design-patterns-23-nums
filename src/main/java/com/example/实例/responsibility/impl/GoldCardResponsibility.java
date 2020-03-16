@@ -9,13 +9,14 @@ import java.util.Map;
 /**
  * 小金卡字段
  */
-public class GoldCardResponsibility implements DocResponsibility {
+public class GoldCardResponsibility extends BaseContext implements DocResponsibility {
 
     @Override
     public Map<String, Object> execute(ItemParam context) {
         Map<String, Object> map = new HashMap<>();
         map.put("goldCard", true);
         map.put("goldCardPrice", 10.0);
+        System.out.println("城市："+allCitys);
         return map;
     }
 }

@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * 手艺人字段
  */
-public class ArtisanResponsibility implements DocResponsibility {
+public class ArtisanResponsibility extends BaseContext implements DocResponsibility {
 
     @Override
     public Map<String, Object> execute(ItemParam context) {

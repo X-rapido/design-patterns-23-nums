@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class DocDetailStrategy {
+public class DocStrategy {
 
     /**
      * 待执行的doc责任链对象
