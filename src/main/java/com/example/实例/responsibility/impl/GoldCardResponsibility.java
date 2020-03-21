@@ -16,7 +16,6 @@ public class GoldCardResponsibility extends BaseContext implements DocResponsibi
         Map<String, Object> map = new HashMap<>();
         map.put("goldCard", true);
         map.put("goldCardPrice", 10.0);
-        System.out.println("城市："+allCitys);
         return map;
     }
 }
