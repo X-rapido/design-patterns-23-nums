@@ -1,5 +1,7 @@
 package com.example.实例3.spi;
 
+import com.example.实例3.model.DocContent;
+
 /**
  * 文档更新
  */
@@ -40,4 +42,12 @@ public interface DocUpdateService {
      * 增量更新手艺人
      */
     void updateArtisan(String artisanId);
+
+    /**
+     * 更新内容
+     *
+     * @param content
+     */
+    void docUpdate(DocContent content);
+
 }
