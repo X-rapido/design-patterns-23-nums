@@ -27,8 +27,9 @@ public class Demo {
 
         // 执行更新
         DocUpdateService docUpdateService =new DocUpdateServiceImpl();
-        docUpdateService.fullImportItem();
+//        docUpdateService.fullImportItem();
 //        docUpdateService.fullImportArtisan();
+        docUpdateService.updateItems("01");
 
 
 
