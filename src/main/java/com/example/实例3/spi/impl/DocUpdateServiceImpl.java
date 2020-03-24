@@ -5,12 +5,13 @@ import com.example.实例3.enums.IndexTypeEnum;
 import com.example.实例3.handler.BaseContext;
 import com.example.实例3.handler.DocHandler;
 import com.example.实例3.handler.impl.*;
-import com.example.实例3.model.DocContent;
+import com.example.实例3.model.DocContext;
 import com.example.实例3.model.DocEntity;
 import com.example.实例3.model.DocParam;
 import com.example.实例3.model.DocStrategy;
 import com.example.实例3.spi.DocMappingService;
 import com.example.实例3.spi.DocUpdateService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
@@ -19,12 +20,14 @@ import java.util.Map;
 
 public class DocUpdateServiceImpl extends BaseContext implements DocUpdateService {
 
-    private DocMappingService mappingService = new DocMappingSericeImpl();
+    @Autowired
+    private DocMappingService mappingService;
+//    private DocMappingService mappingService = new DocSolrMappingSericeImpl();
 
     @Override
     public void fullImportItem() {
         // 上下文
-        DocContent content = new DocContent();
+        DocContext content = new DocContext();
         content.setIndex(IndexEnum.ITEM);
         content.setType(IndexTypeEnum.FULL_UPDATE);
 
@@ -35,7 +38,7 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
     @Override
     public void updateItems(String itemId) {
         // 上下文
-        DocContent content = new DocContent();
+        DocContext content = new DocContext();
         content.setIndex(IndexEnum.ITEM);
         content.setType(IndexTypeEnum.UPDATE);
         content.setDocParam(new DocParam().setItemId(itemId));
@@ -47,7 +50,7 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
     @Override
     public void updateProduct(String productId) {
         // 上下文
-        DocContent content = new DocContent();
+        DocContext content = new DocContext();
         content.setIndex(IndexEnum.ITEM);
         content.setType(IndexTypeEnum.UPDATE);
         content.setDocParam(new DocParam().setNewProductId(productId));
@@ -58,7 +61,7 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
     @Override
     public void updateArtisanItems(String artisanId) {
         // 上下文
-        DocContent content = new DocContent();
+        DocContext content = new DocContext();
         content.setIndex(IndexEnum.ITEM);
         content.setType(IndexTypeEnum.UPDATE);
         content.setDocParam(new DocParam().setArtisanId(artisanId));
@@ -70,7 +73,7 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
     @Override
     public void fullImportArtisan() {
         // 上下文
-        DocContent content = new DocContent();
+        DocContext content = new DocContext();
         content.setIndex(IndexEnum.ARTISAN);
         content.setType(IndexTypeEnum.FULL_UPDATE);
 
@@ -81,7 +84,7 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
     @Override
     public void updateArtisan(String artisanId) {
         // 上下文
-        DocContent content = new DocContent();
+        DocContext content = new DocContext();
         content.setIndex(IndexEnum.ARTISAN);
         content.setType(IndexTypeEnum.FULL_UPDATE);
         content.setDocParam(new DocParam().setArtisanId(artisanId));
@@ -91,7 +94,7 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
     }
 
     @Override
-    public void docUpdate(DocContent content) {
+    public void docUpdate(DocContext content) {
         if (IndexTypeEnum.FULL_UPDATE.equals(content.getType())) {
             // 初始化全量数据
             if (CollectionUtils.isEmpty(allCitys) || CollectionUtils.isEmpty(allArtisanId)){
@@ -103,16 +106,15 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
                     for (String id : allArtisanId) {
                         List<DocStrategy> strategyList = getDocStrategyList(content.getIndex());
                         content.setDocParam(new DocParam().setArtisanId(id));
-                        this.exec(content, strategyList);
+                        this.read(content, strategyList);
                     }
                 }
-
             } else if (IndexEnum.ARTISAN.equals(content.getIndex())) {
                 if (!CollectionUtils.isEmpty(allArtisanId)) {
                     for (String id : allArtisanId) {
                         List<DocStrategy> strategyList = getDocStrategyList(content.getIndex());
                         content.setDocParam(new DocParam().setArtisanId(id));
-                        this.exec(content, strategyList);
+                        this.read(content, strategyList);
                     }
                 }
             } else if (IndexEnum.STUDIO.equals(content.getIndex())) {
@@ -120,7 +122,7 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
                     for (String id : allStudioId) {
                         List<DocStrategy> strategyList = getDocStrategyList(content.getIndex());
                         content.setDocParam(new DocParam().setStudioId(id));
-                        this.exec(content, strategyList);
+                        this.read(content, strategyList);
                     }
                 }
             }
@@ -128,7 +130,7 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
         } else if (IndexTypeEnum.UPDATE.equals(content.getType())) {
             // 增量
             List<DocStrategy> strategyList = getDocStrategyList(content.getIndex());
-            this.exec(content, strategyList);
+            this.read(content, strategyList);
         }
     }
 
@@ -163,7 +165,7 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
      * @param content      上下文
      * @param strategyList 策略列表
      */
-    private void exec(DocContent content, List<DocStrategy> strategyList) {
+    private void read(DocContext content, List<DocStrategy> strategyList) {
         DocEntity entity = new DocEntity();
         strategyList.forEach(s -> {
             DocHandler handler = s.getDocHandler();
@@ -185,7 +187,7 @@ public class DocUpdateServiceImpl extends BaseContext implements DocUpdateServic
         entity.getVars().forEach((k, v) -> System.out.println(k + ": " + v));
 
         // 更新文档数据
-        mappingService.solrMapping(content.getIndex(), entity);
+        mappingService.mapping(content.getIndex(), entity);
     }
 
 }

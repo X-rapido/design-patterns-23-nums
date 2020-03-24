@@ -8,7 +8,7 @@ import lombok.Data;
  * doc上下文
  */
 @Data
-public class DocContent {
+public class DocContext {
     /**
      * 索引名字
      */

@@ -14,11 +14,6 @@ public interface DocMappingService {
      * @param indexEnum 索引名
      * @param entity    索引数据
      */
-    void solrMapping(IndexEnum indexEnum, DocEntity entity);
-
-    /**
-     * K,V 字段映射到 ElasticSearch doc 文档
-     */
-    void esMapping(IndexEnum indexEnum, DocEntity entity);
+    void mapping(IndexEnum indexEnum, DocEntity entity);
 
 }

@@ -1,6 +1,6 @@
 package com.example.实例3.spi;
 
-import com.example.实例3.model.DocContent;
+import com.example.实例3.model.DocContext;
 
 /**
  * 文档更新
@@ -48,6 +48,6 @@ public interface DocUpdateService {
      *
      * @param content
      */
-    void docUpdate(DocContent content);
+    void docUpdate(DocContext content);
 
 }

@@ -6,10 +6,10 @@ import com.example.实例3.spi.DocMappingService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class DocMappingSericeImpl implements DocMappingService {
+public class DocSolrMappingSericeImpl implements DocMappingService {
 
     @Override
-    public void solrMapping(IndexEnum indexEnum, DocEntity entity) {
+    public void mapping(IndexEnum indexEnum, DocEntity entity) {
         // 转换 SolrInputDocument
 
         if (IndexEnum.ITEM.equals(indexEnum)) {
@@ -23,8 +23,4 @@ public class DocMappingSericeImpl implements DocMappingService {
         System.out.println("更新：" + indexEnum.getIndex() + " 成功\n");
     }
 
-    @Override
-    public void esMapping(IndexEnum indexEnum, DocEntity entity) {
-
-    }
 }
