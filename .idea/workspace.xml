@@ -4,10 +4,7 @@
     <list default="true" id="78ebc249-7ff3-4730-aa1f-782d3a01e7f9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例3/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例3/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例3/spi/DocService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例3/spi/DocUpdateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例3/spi/DocUpdateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例3/spi/impl/DocServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例3/spi/impl/DocUpdateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例3/spi/impl/DocUpdateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/实例3/handler/BaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/实例3/handler/BaseContext.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +20,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,8 +62,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/structure_mode/代理模式/staticProxy" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.实例4" />
       <recent name="com.example.实例" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.实例4" />
+      <recent name="com.example.实例3.handler.impl" />
+      <recent name="com.example.实例3.enums" />
+      <recent name="com.example.实例3.handler" />
+      <recent name="com.example.实例3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/example/实例3/model" />
@@ -74,16 +82,6 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/访问者模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/备忘录模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Interaction_mode/观察者模式" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.实例3.handler.impl" />
-      <recent name="com.example.实例3.enums" />
-      <recent name="com.example.实例3.handler" />
-      <recent name="com.example.实例3" />
-      <recent name="com.example.实例3.model" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/structure_mode/代理模式/staticProxy" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -237,7 +235,10 @@
       <workItem from="1584787850760" duration="1208000" />
       <workItem from="1584790037522" duration="45000" />
       <workItem from="1584793562295" duration="15553000" />
-      <workItem from="1584858418239" duration="2549000" />
+      <workItem from="1584858418239" duration="2571000" />
+      <workItem from="1584930609621" duration="1651000" />
+      <workItem from="1584952434318" duration="1399000" />
+      <workItem from="1584963266372" duration="2080000" />
     </task>
     <servers />
   </component>

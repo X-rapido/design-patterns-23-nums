@@ -8,8 +8,9 @@ import java.util.List;
 
 /**
  * 公共数据构建
+ * @author liurenkui
  */
-public class BaseContext {
+public abstract class BaseContext {
 
     protected static List<String> allCitys;     // 所有城市
     protected static List<String> allArtisan;   // 所有手艺人
@@ -27,7 +28,6 @@ public class BaseContext {
             this.getAlllArtisan();
         }
     }
-
 
     /**
      * 所有城市
